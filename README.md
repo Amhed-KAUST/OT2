@@ -5,9 +5,9 @@ Please be aware of rack deposition. E.g.:
 
 https://drive.google.com/open?id=1Og2vHm8AUVc24NeOYHRboBxKIULkhylm
 
-##Routines
-###Resuspend 384 library and transfer into 96 well plates
-###**Yet to be tested
+## Routines
+### Resuspend 384 library and transfer into 96 well plates
+### **Yet to be tested
 
 Test-Fill_384_to_4_96.py
 
