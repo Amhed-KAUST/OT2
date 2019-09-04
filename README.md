@@ -23,3 +23,9 @@ https://drive.google.com/file/d/1yetmTQG9DVCJ7jzeO-JHSRjcQXP64lDb/view?usp=shari
 8F-by-11R_PCR_test-2_switched.json
 
 Run in OT-2 or Protocol builder (https://designer.opentrons.com/) to get the strategy and Labware needed.
+
+### Fill a 384 well plate with sample coming from eppendorf tubes (2ml rack)
+
+tube_to_384.ot2.py
+
+** Check opentrons documentation for further info
