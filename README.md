@@ -18,3 +18,8 @@ Mix each well and transfer 10 ul to 4 different 96 well plates.
 Diagram:
 https://drive.google.com/file/d/1yetmTQG9DVCJ7jzeO-JHSRjcQXP64lDb/view?usp=sharing
 
+### Perform a PCR in a 96 well plate combining 11 Fwd primers (1 per column) and 8 Rev primers (1 per row)
+
+8F-by-11R_PCR_test-2_switched.json
+
+Run in OT-2 or Protocol builder (https://designer.opentrons.com/) to get the strategy and Labware needed.
