@@ -49,9 +49,9 @@ def run_custom_protocol():
         else:
             sw='A2'
         p10.pick_up_tip()
-        p10.transfer(10, sample_tubes.wells(sw), w.bottom(5), new_tip='never', dispense_flow_rate=1)
+        p10.transfer(10, sample_tubes.wells('A1'), w.bottom(5), new_tip='never', dispense_flow_rate=1)
         p10.delay(seconds=10)
-        p10.mix(repetitions=5, volume=5, w.bottom(1))
+        p10.mix(repetitions=5, volume=5, location=w.bottom(1))
         p10.transfer(5, w, w96[con], new_tip='never', dispense_flow_rate=1, mix_before=5, blow_out=True)
         p10.drop_tip()
         con = con + 1
@@ -68,9 +68,9 @@ def run_custom_protocol():
         else:
             sw='A2'
         p10.pick_up_tip()
-        p10.transfer(10, sample_tubes.wells(sw), w.bottom(5), new_tip='never', dispense_flow_rate=1)
+        p10.transfer(10, sample_tubes.wells('A2'), w.bottom(5), new_tip='never', dispense_flow_rate=1)
         p10.delay(seconds=10)
-        p10.mix(repetitions=5, volume=5, w.bottom(1))
+        p10.mix(repetitions=5, volume=5, location=w.bottom(1))
         p10.transfer(5, w, w96[con], new_tip='never', dispense_flow_rate=1, mix_before=5, blow_out=True)
         p10.drop_tip()
         con = con + 1
